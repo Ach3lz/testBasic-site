@@ -1,0 +1,143 @@
+body{
+    background: radial-gradient(circle at 30% 50%,  pink, rgb(173, 173, 252), rgb(245, 198, 198));
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav ul {
+    display: flex;
+    text-align: right;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+    justify-content: right;
+}
+
+.nav ul li{
+    margin-inline: 20px;
+    padding: 10px;
+}
+
+
+.nav ul li{
+    margin-inline: 20px;
+    padding: 10px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: rgb(21, 2, 63);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: cursive;
+    transition: font-size 0.25s;
+}
+
+.nav ul li a:hover{
+    color: rgb(71, 2, 47);
+    font-size: 27px;
+    
+}
+
+
+.contact{
+    background-color: transparent;
+    border-color: blue;
+    border-radius: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    transition: font-size 0.25s,font-size 0.25s;
+
+}
+
+.contact:hover{
+    font-size: 15px;
+}
+
+.contact:active{
+    font-size: 14.2px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 800;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+
+.realm-of-kaz{
+    font-size: 70px;
+    margin-right: 800px;
+    margin-top: 120px;
+}
+
+.head-text{
+    font-size: 20px;
+    margin-top: -50px;
+}
+
+
+.explore{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(250, 78, 31);
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: font-size 0.25s,font-size 0.25s;
+}
+
+.explore:hover{
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.explore:active{
+    font-size: 21px;
+}
+
+.hero-image img{
+    max-width: 520px;
+    float: right;
+    margin-top: -360px;
+    margin-right: 80px;
+    border-radius: 30px;  
+}
+
+.hero{
+    position: absolute;
+}
+
+
+.what-i-do {
+    background-color:transparent;
+    text-align: center; 
+    margin-top: 800px;
+  }
+  
+
+.text-box1{
+    width:200px;
+    height:150px;
+    padding:50px;
+    background-color: rgb(172, 212, 247);
+    border-radius: 50px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between grid items */
+    justify-items: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+  }
+  
